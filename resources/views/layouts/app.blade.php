@@ -13,6 +13,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/all.css') }}" rel="stylesheet">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="{{ asset('assets/libs/owl.carousel/assets/owl.carousel.min.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('assets/libs/owl.carousel/assets/owl.theme.default.min.css') }}">
     <!-- Bootstrap Css -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
@@ -62,6 +66,7 @@
                                     </div>
                                 </div> --}}
                             <!-- end page title -->
+
                             @yield('content')
                         </div> <!-- container-fluid -->
                     </div>

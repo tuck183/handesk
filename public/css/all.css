@@ -1153,38 +1153,7 @@ table .small {
     z-index: 99;
   }
 }
-input {
-  border: 1px solid #c8c8c8;
-  color: #7c8287;
-  border-radius: 4px;
-  padding: 6px 12px;
-}
-input::-webkit-input-placeholder {
-  color: #c8c8c8;
-}
-input::-ms-input-placeholder {
-  color: #c8c8c8;
-}
-input::placeholder {
-  color: #c8c8c8;
-}
-input[type="checkbox"] {
-  height: 10px;
-}
-input[type="number"],
-input[type="password"] {
-  padding: 6px;
-}
-input[type="file"] {
-  border: none;
-  padding-left: 0;
-}
-select {
-  border-radius: 4px;
-  height: 24px;
-  background-color: #fff;
-  border-color: #c8c8c8;
-}
+
 .busy {
   display: none;
 }
@@ -1303,18 +1272,18 @@ div.tagsinput span.tag {
   min-height: 50px;
 }
 .new-comment textarea {
-  border-radius: 8px;
+  border-radius: 0px;
   margin-bottom: 8px;
   padding: 8px;
   width: 100%;
-  height: 60px;
+  height: 100px;
   border: 1px solid #c8c8c8;
 }
 .description {
   padding: 4px 12px 12px 24px;
 }
 .description .actions {
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .thrust-main-actions {
   margin-top: 20px;
@@ -1347,8 +1316,8 @@ div.tagsinput span.tag {
 }
 .description .title,
 .description h3 {
-  font-weight: 200;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
 }
 .label {
   border-radius: 4px;
@@ -1454,8 +1423,6 @@ div.tagsinput span.tag {
   cursor: pointer;
   padding: 8px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
   position: relative;
 }
 .button:active,
@@ -1486,8 +1453,8 @@ button {
   cursor: pointer;
   padding: 8px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+  /* -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3); */
   position: relative;
 }
 button:focus {

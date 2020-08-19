@@ -219,7 +219,7 @@ body[data-layout="horizontal"] .page-content {
   }
 }
 .page-title-box {
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
 }
 .page-title-box .breadcrumb {
   background-color: transparent;
@@ -3927,7 +3927,10 @@ input[switch="dark"]:checked + label {
   top: 16px;
   left: 0;
   right: 0;
-  border-bottom: 3px dashed #f6f6f6;
+  border-bottom: 3px dashed #eaeaea;
+}
+.hori-timeline .events .event-list .event-down-icon.active::before {
+  border-bottom: 3px dashed #c00;
 }
 .hori-timeline .events .event-list .event-down-icon .down-arrow-icon {
   position: relative;
